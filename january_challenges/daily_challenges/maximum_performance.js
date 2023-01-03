@@ -1,5 +1,5 @@
 const { MinPriorityQueue } = require("@datastructures-js/priority-queue");
-
+  
 var maxPerformance = function (n, speed, efficiency, k) {
   let ord = Array.from({ length: n }, (_, i) => i);
   ord.sort((a, b) => efficiency[b] - efficiency[a]);
