@@ -1,4 +1,4 @@
-var numJewelsInStones = function (jewels, stones) {
+let numJewelsInStones = function (jewels, stones) {
   const map = {};
   let count = 0;
 
