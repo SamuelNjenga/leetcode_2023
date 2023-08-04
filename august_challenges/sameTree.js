@@ -26,7 +26,7 @@ var isSameTree = function(p, q) {
 
     // Recursively check the left and right subtrees
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-};
+};5
 
 console.log(isSameTree([1, 2], [1, null, 2]));
 console.log(isSameTree([1, 2, 1], [1, 1, 2]));
