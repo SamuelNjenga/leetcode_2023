@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[][]}
  */
-var combinationSum = function (candidates, target) {
+let combinationSum = function (candidates, target) {
   let res = [];
   let temp = [];
   let iterate = (index, sum) => {
